@@ -1,0 +1,19 @@
+$red: #fa5252;
+$orange: #fd7e14;
+
+@mixin square($size) {
+  $calculated: 32px * $size;
+  width: $calculated;
+  height: $calculated;
+}
+
+.SassComponent {
+  display: flex;
+  .box {
+    background-color: $red;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    &.red {
+    }
+  }
+}
