@@ -1,22 +1,13 @@
-import React from "react";
-import { useState } from "react/cjs/react.development";
-import Info from "./Info";
+import React, { Component } from "react";
+import SassComponent from "./SassComponent.scss";
 
-const App = () => {
-  const [visible, setVisible] = useState(false);
-  return (
-    <div>
-      <button
-        onClick={() => {
-          setVisible(!visible);
-        }}
-      >
-        {visible ? "숨기기" : "보이기"}
-      </button>
-      <hr />
-      {visible && <Info />}
-    </div>
-  );
-};
-
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <SassComponent />
+      </div>
+    );
+  }
+}
 export default App;

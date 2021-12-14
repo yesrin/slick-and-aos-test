@@ -1,11 +1,4 @@
-$red: #fa5252;
-$orange: #fd7e14;
-
-@mixin square($size) {
-  $calculated: 32px * $size;
-  width: $calculated;
-  height: $calculated;
-}
+@import "./style/utils";
 
 .SassComponent {
   display: flex;
@@ -14,6 +7,12 @@ $orange: #fd7e14;
     cursor: pointer;
     transition: all 0.3s ease-in;
     &.red {
+      background: $red;
+      @include square(1);
+    }
+    &.orange {
+      background: $orange;
+      @include square(2);
     }
   }
 }
