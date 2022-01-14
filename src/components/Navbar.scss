@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+li {
+  display: flex;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   color: bisque;
@@ -24,9 +29,26 @@ a {
     list-style: none;
     padding-left: 0;
 
+    li:hover {
+      background-color: black;
+      border-radius: 5px;
+    }
+
     a {
       padding: 8px 12px;
       color: white;
+    }
+  }
+
+  .navbar__icons {
+    display: flex;
+    font-size: 18px;
+    color: black;
+    li {
+      padding: 4px;
+      :hover {
+        color: coral;
+      }
     }
   }
 }

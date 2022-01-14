@@ -1,7 +1,6 @@
 import React from "react";
 import { MdOutlineFace } from "react-icons/md";
-import { RiKakaoTalkFill } from "react-icons/ri";
-import { SiNaver } from "react-icons/si";
+import { SiNaver, SiKakaotalk } from "react-icons/si";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
@@ -9,8 +8,10 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <MdOutlineFace />
-        <Link to="/">Portfolio</Link>
+        <Link to="/">
+          <MdOutlineFace />
+          Portfolio
+        </Link>
       </div>
       <ul className="navbar__menu">
         <li>
@@ -28,8 +29,12 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar__icons">
-        <RiKakaoTalkFill />
-        <SiNaver />
+        <li>
+          <SiKakaotalk />
+        </li>
+        <li>
+          <SiNaver />
+        </li>
       </div>
     </div>
   );
