@@ -1,20 +1,13 @@
-import { Canvas } from "@react-three/fiber";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
 
-const Scene = () => {
+function App() {
   return (
-    <Canvas>
-      <pointLight position={[10, 10, 10]} />
-      <mesh>
-        <planeBufferGeometry args={[3, 5]} />
-        <meshStandardMaterial color="lightblue" />
-      </mesh>
-    </Canvas>
+    <Router>
+      <Navbar />
+    </Router>
   );
-};
-
-const App = () => {
-  <Scene />;
-};
+}
 
 export default App;
