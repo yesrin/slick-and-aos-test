@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: bisque;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(28, 42, 49);
+  padding: 8px 12px;
+
+  .navbar__logo {
+    font-size: 24px;
+    color: brown;
+  }
+
+  .navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+
+    a {
+      padding: 8px 12px;
+      color: white;
+    }
+  }
+}
