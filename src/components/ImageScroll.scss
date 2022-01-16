@@ -1,0 +1,22 @@
+.container {
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .box_right {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+  }
+  .box_left {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    flex-direction: row-reverse;
+  }
+
+  p {
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+  }
+}
