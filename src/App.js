@@ -1,14 +1,16 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
-import Imagescroll from "./components/Image scroll";
+import ImageScroll from "./components/ImageScroll";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
     <Router>
       <Navbar />
       <body>
-        <Imagescroll />
+        <Carousel />
+        <ImageScroll />
       </body>
       <footer></footer>
     </Router>
