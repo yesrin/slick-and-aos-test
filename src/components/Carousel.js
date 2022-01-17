@@ -8,10 +8,10 @@ const Carousel = () => {
   const settings = {
     dots: true, // 슬라이드 밑에 점 보이게
     infinite: true, // 무한으로 반복
-    speed: 500, // 넘기는 속도
+    speed: 2000, // 넘기는 속도
     autoplay: true, // 자동으로 넘김
     arrows: true, // 옆으로 이동하는 화살표 표시 여부
-    autoplaySpeed: 500, //자동으로 넘어가는 속도
+    autoplaySpeed: 2000, //자동으로 넘어가는 속도
     slidesToShow: 1, // 스크린에 보여지는 슬라이드 개수
     slidesToScroll: 1, // n장씩 뒤로 넘어가게 함
     centerMode: true, // 중앙정렬

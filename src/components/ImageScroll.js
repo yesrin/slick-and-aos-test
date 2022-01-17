@@ -24,6 +24,12 @@ const Imagescroll = () => {
       <div className="box_left" data-aos="fade-left">
         <p>AOS 테스트4</p>
       </div>
+      <div className="box_right" data-aos="fade-right">
+        <p>AOS 테스트5</p>
+      </div>
+      <div className="box_left" data-aos="fade-left">
+        <p>AOS 테스트6</p>
+      </div>
     </div>
   );
 };
