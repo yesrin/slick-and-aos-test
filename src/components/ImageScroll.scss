@@ -12,18 +12,20 @@
   .box_right {
     width: 70%;
     height: 20vh;
+    margin-top: 1vh;
     background-color: rgb(71, 68, 68);
   }
   .box_left {
     width: 70%;
     height: 20vh;
     background-color: rgb(71, 68, 68);
+    margin-top: 1vh;
     margin-left: auto;
   }
 
   p {
     font-size: 5vw;
-    height: auto;
+    height: center;
     text-align: center;
   }
 }
