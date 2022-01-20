@@ -37,17 +37,16 @@ const Carousel = () => {
 
   return (
     <div className="container">
-      <Slider className="slider" {...settings}>
-        <div className="imageA">
-          <p>1</p>
-        </div>
-        <div className="imageB">
-          <p>2</p>
-        </div>
-        <div className="imageC">
-          <p>3</p>
-        </div>
-      </Slider>
+      <div id="frist">
+        <p>안녕하세요</p>
+      </div>
+      <div id="back">
+        <Slider {...settings}>
+          <div className="imageA"></div>
+          <div className="imageB"></div>
+          <div className="imageC"></div>
+        </Slider>
+      </div>
     </div>
   );
 };
