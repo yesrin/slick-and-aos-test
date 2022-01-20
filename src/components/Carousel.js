@@ -37,18 +37,15 @@ const Carousel = () => {
 
   return (
     <div className="container">
-      <Slider {...settings}>
-        <div className="imgA">
-          <img src={require("../images/lake_1920.jpg").default} alt="sunset" />
+      <Slider className="slider" {...settings}>
+        <div className="imageA">
+          <p>1</p>
         </div>
-        <div className="imgB">
-          <img
-            src={require("../images/lantern_1920.jpg").default}
-            alt="tempel"
-          />
+        <div className="imageB">
+          <p>2</p>
         </div>
-        <div className="imgC">
-          <img src={require("../images/tree_1920.jpg").default} alt="town" />
+        <div className="imageC">
+          <p>3</p>
         </div>
       </Slider>
     </div>

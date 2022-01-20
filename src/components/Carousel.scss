@@ -2,10 +2,30 @@
   margin: 0;
   padding: 0;
 }
+p {
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70vh;
+  color: white;
+}
 
-.slick-slide {
-  height: 320px;
-  img {
-    background-size: cover;
+ul.slick-dots {
+  height: 8vh;
+}
+.container {
+  .slider {
+    .imageA {
+      background-image: url(../images/lake_1920.jpg);
+      height: 70vh;
+    }
+    .imageB {
+      background-image: url(../images/lantern_1920.jpg);
+      height: 70vh;
+    }
+    .imageC {
+      background-image: url(../images/lantern_1920.jpg);
+      height: 70vh;
+    }
   }
 }
