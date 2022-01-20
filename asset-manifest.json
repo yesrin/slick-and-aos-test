@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b4589b6.chunk.css",
-    "main.js": "/static/js/main.6a382e08.chunk.js",
-    "main.js.map": "/static/js/main.6a382e08.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c5e430da.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c5e430da.js.map",
+    "main.css": "/static/css/main.9bc280a3.chunk.css",
+    "main.js": "/static/js/main.2227a8f3.chunk.js",
+    "main.js.map": "/static/js/main.2227a8f3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8e388204.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8e388204.js.map",
     "static/css/2.2d52dd68.chunk.css": "/static/css/2.2d52dd68.chunk.css",
-    "static/js/2.bd02eaa9.chunk.js": "/static/js/2.bd02eaa9.chunk.js",
-    "static/js/2.bd02eaa9.chunk.js.map": "/static/js/2.bd02eaa9.chunk.js.map",
-    "static/js/3.bc0e8f83.chunk.js": "/static/js/3.bc0e8f83.chunk.js",
-    "static/js/3.bc0e8f83.chunk.js.map": "/static/js/3.bc0e8f83.chunk.js.map",
+    "static/js/2.344e1050.chunk.js": "/static/js/2.344e1050.chunk.js",
+    "static/js/2.344e1050.chunk.js.map": "/static/js/2.344e1050.chunk.js.map",
+    "static/js/3.53f6dfc2.chunk.js": "/static/js/3.53f6dfc2.chunk.js",
+    "static/js/3.53f6dfc2.chunk.js.map": "/static/js/3.53f6dfc2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2d52dd68.chunk.css.map": "/static/css/2.2d52dd68.chunk.css.map",
-    "static/css/main.3b4589b6.chunk.css.map": "/static/css/main.3b4589b6.chunk.css.map",
-    "static/js/2.bd02eaa9.chunk.js.LICENSE.txt": "/static/js/2.bd02eaa9.chunk.js.LICENSE.txt",
-    "static/media/katun-river_640.jpg": "/static/media/katun-river_640.0b2cd36e.jpg",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
-    "static/media/sunset_640.jpg": "/static/media/sunset_640.a31774dc.jpg",
-    "static/media/town_640.jpg": "/static/media/town_640.1611097c.jpg"
+    "static/css/main.9bc280a3.chunk.css.map": "/static/css/main.9bc280a3.chunk.css.map",
+    "static/js/2.344e1050.chunk.js.LICENSE.txt": "/static/js/2.344e1050.chunk.js.LICENSE.txt",
+    "static/media/Carousel.scss": "/static/media/lantern_1920.0661c87c.jpg",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5e430da.js",
+    "static/js/runtime-main.8e388204.js",
     "static/css/2.2d52dd68.chunk.css",
-    "static/js/2.bd02eaa9.chunk.js",
-    "static/css/main.3b4589b6.chunk.css",
-    "static/js/main.6a382e08.chunk.js"
+    "static/js/2.344e1050.chunk.js",
+    "static/css/main.9bc280a3.chunk.css",
+    "static/js/main.2227a8f3.chunk.js"
   ]
 }
