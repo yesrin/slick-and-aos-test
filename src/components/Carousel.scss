@@ -7,19 +7,23 @@ ul.slick-dots {
   height: 8vh;
 }
 .container {
-  #first {
+  .up2 {
     z-index: 2;
+    position: relative;
     p {
       font-size: 5vw;
       font-weight: bold;
       text-align: center;
-      line-height: 70vh;
       color: black;
+      display: inline-block;
     }
   }
 
-  #back {
+  .down1 {
+    position: relative;
     z-index: 1;
+    top: -200px;
+
     .imageA {
       background-image: url(../images/lake_1920.jpg);
       height: 70vh;
