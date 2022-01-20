@@ -36,18 +36,20 @@ const Carousel = () => {
   };
 
   return (
-    <div className="container">
-      <div className="up2">
+    <>
+      {/* <div className="up2">
         <p>안녕하세요</p>
-      </div>
+      </div> */}
       <div className="down1">
         <Slider {...settings}>
-          <div className="imageA"></div>
+          <div className="imageA">
+            <p>안녕하세요</p>
+          </div>
           <div className="imageB"></div>
           <div className="imageC"></div>
         </Slider>
       </div>
-    </div>
+    </>
   );
 };
 export default Carousel;

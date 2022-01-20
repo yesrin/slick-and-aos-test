@@ -6,35 +6,33 @@
 ul.slick-dots {
   height: 8vh;
 }
-.container {
-  .up2 {
-    z-index: 2;
-    position: relative;
-    p {
-      font-size: 5vw;
-      font-weight: bold;
-      text-align: center;
-      color: black;
-      display: inline-block;
-    }
+.up2 {
+  // z-index: 2;
+  // position: relative;
+  p {
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: inline-block;
   }
+}
 
-  .down1 {
-    position: relative;
-    z-index: 1;
-    top: -200px;
+.down1 {
+  // position: relative;
+  // z-index: 1;
+  // top: -200px;
 
-    .imageA {
-      background-image: url(../images/lake_1920.jpg);
-      height: 70vh;
-    }
-    .imageB {
-      background-image: url(../images/lantern_1920.jpg);
-      height: 70vh;
-    }
-    .imageC {
-      background-image: url(../images/lantern_1920.jpg);
-      height: 70vh;
-    }
+  .imageA {
+    background-image: url(../images/lake_1920.jpg);
+    height: 70vh;
+  }
+  .imageB {
+    background-image: url(../images/lantern_1920.jpg);
+    height: 70vh;
+  }
+  .imageC {
+    background-image: url(../images/lantern_1920.jpg);
+    height: 70vh;
   }
 }
