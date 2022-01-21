@@ -54,6 +54,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "http://yesrin.github.io/slick-and-Aos-test/"
+    "homepage": "http://yesrin.github.io/slick-and-Aos-test"
+  },
+  "devDependencies": {
+    "@types/react-slick": "^0.23.8"
   }
 }

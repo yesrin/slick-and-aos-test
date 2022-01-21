@@ -1,30 +1,27 @@
 import React from "react";
 import { MdOutlineFace } from "react-icons/md";
 import { SiNaver, SiKakaotalk } from "react-icons/si";
-import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <Link to="/">
-          <MdOutlineFace />
-          Portfolio
-        </Link>
+        <MdOutlineFace />
+        Portfolio
       </div>
       <ul className="navbar__menu">
         <li>
-          <Link to="/"> Home </Link>
+          <p>Home</p>
         </li>
         <li>
-          <Link to="/">b</Link>
+          <p>project</p>
         </li>
         <li>
-          <Link to="/">d</Link>
+          <p>in</p>
         </li>
         <li>
-          <Link to="/">d</Link>
+          <p>more</p>
         </li>
       </ul>
 

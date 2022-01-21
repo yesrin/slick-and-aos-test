@@ -43,7 +43,7 @@ const Carousel = () => {
       <div className="down1">
         <Slider {...settings}>
           <div className="imageA">
-            <p>안녕하세요</p>
+            <p>vh,vw,aos,slick 연습...</p>
           </div>
           <div className="imageB"></div>
           <div className="imageC"></div>
