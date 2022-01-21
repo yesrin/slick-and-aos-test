@@ -30,15 +30,22 @@ ul.slick-dots {
     text-align: center;
     color: white;
   }
-  background-image: url(../images/lake_1920.jpg);
+  background-image: url(/images/lake_1920.jpg);
+  background-size: cover; // 사이즈가 container에 맞지 않아도 꽉 차도록 채운다.
+  background-position: center;
+
   height: 70vh;
 }
 .imageB {
-  background-image: url(../images/lantern_1920.jpg);
+  background-image: url(/images/lantern_1920.jpg);
+  background-size: cover;
+  background-position: center;
   height: 70vh;
 }
 .imageC {
-  background-image: url(../images/lantern_1920.jpg);
+  background-image: url(/images/tree_1920.jpg);
+  background-size: cover;
+  background-position: center;
   height: 70vh;
 }
 //}
