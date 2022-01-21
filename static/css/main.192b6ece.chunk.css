@@ -100,7 +100,7 @@ ul.slick-dots {
   height: 8vh;
 }
 .imageA {
-  background-image: url(./static/media/lake_1920.95ffa9e3.jpg);
+  background-image: url(../media/lake_1920.95ffa9e3.jpg);
   height: 70vh;
 }
 .imageA p {
@@ -111,7 +111,7 @@ ul.slick-dots {
 }
 .imageB,
 .imageC {
-  background-image: url(./static/media/lantern_1920.0661c87c.jpg);
+  background-image: url(../media/lantern_1920.0661c87c.jpg);
   height: 70vh;
 }
 /*# sourceMappingURL=main.192b6ece.chunk.css.map */
